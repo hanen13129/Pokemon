@@ -1,0 +1,32 @@
+.button-class {
+  background-color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white;
+  border: 2px solid red;
+}
+
+/*body {
+  text-align: center;
+}
+div {
+  background-color: lightblue;
+}
+button {
+  margin: 30px;
+  height: 30px;
+  width: 100px;
+}
+.button--red {
+  background-color: tomato;
+}
+.button--green {
+  background-color: lightgreen;
+} */
