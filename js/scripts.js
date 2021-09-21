@@ -17,23 +17,20 @@ function getAll() {
     function addListItem(pokemon) {
         let ul = document.querySelector('.pokemon-list');
         let liItem = document.createElement('li');
-
         let button = document.createElement('button');
         button.innerText = pokemon.name;
         button.classList.add('button-class');
-
         liItem.appendChild(button);
         ul.appendChild(liItem);
-
-        button.addEventListener('click', showDetails(pokemon));
+        // button.addEventListener('click', showDetails(pokemon));
     button.addEventListener("click", function(){
       showDetails(pokemon)
-      console.log(pokemon.name)
+      // console.log(pokemon.name)
         });
     }
-   function showDetails(pokemon) {
-        console.log(pokemon);
-    }
+  //  function showDetails(pokemon) {
+  //       console.log(pokemon);
+  //   }
    
   function showDetails(pokemon){
     loadDetails(pokemon).then(function (){
@@ -41,7 +38,7 @@ function getAll() {
     });
   }
 
- 
+
 
   return {
     getAll: getAll,
