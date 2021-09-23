@@ -3,7 +3,7 @@ let pokemonRepository = (function () {
 //The Pokemon collection
 let pokemonList = [];
 let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=150';
-
+let modalContainer= document.querySelector('#modal-container');
 //add a single pokemon to the pokemonList
    function add(pokemon) {
      //make sure the new pokemon has these properties
@@ -102,7 +102,7 @@ function showDetails(item) {
 
   //showing modal
     function showModal(pokemon) {
-        let modalContainer= document.querySelector('#modal-container');
+        // let modalContainer= document.querySelector('#modal-container');
 
         //clear all existing modal content
         modalContainer.innerHTML = '';
