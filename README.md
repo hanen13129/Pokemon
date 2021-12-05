@@ -1,25 +1,25 @@
-"Pokemon"
+#  Pokemon
+## Purpose
 JavaScript Application
 
-Introduction to JavaScript:
+## Introduction to JavaScript:
 Program Full-Stack Immersion
-
-Description of the project:
+## Key Features
 
  build a small web application with HTML, CSS, JavaScript the loads data from an External API.
 
-Project steps:
+**Project steps:** 
 The project contains 11 sections. Through the project I obtained fundamental JavaScript skills as well
 as one of JavaScript library (jQuery) and BootStrap (CSS flamework) knowledge by creating the
 application.
 
-Technology used
+## Tools/Technologies used
 • HTML
 • CSS
 • JavaScript
 • jQuery
 • Bootstrap
 
-External files:
+## External files:
 • Fetch polyfill
 • Promise polyfill
