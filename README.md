@@ -24,5 +24,5 @@ application.
 
 
 ## :white_check_mark:   External files:
-• Fetch polyfill
-• Promise polyfill
+:small_orange_diamond: Fetch polyfill
+:small_orange_diamond: Promise polyfill
